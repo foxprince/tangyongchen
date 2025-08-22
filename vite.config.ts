@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   // Allow specifying a base path for GitHub Pages deployments.
   // Set BASE_PATH in CI (e.g., "/<repo>") or leave default "/".
-  base: process.env.BASE_PATH || '/',
+  base: '/tangyongchen/',
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
